@@ -1,0 +1,28 @@
+{
+  "name": "landing-itvdn",
+  "version": "1.0.0",
+  "description": "Верстка лэндинга ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trouble-Andrew/Landing-ITDVN.git"
+  },
+  "author": "Андрей Терехов",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trouble-Andrew/Landing-ITDVN/issues"
+  },
+  "homepage": "https://github.com/Trouble-Andrew/Landing-ITDVN#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp.spritesmith": "^6.5.1",
+    "rimraf": "^2.6.1"
+  }
+}
