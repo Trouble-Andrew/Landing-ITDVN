@@ -71,7 +71,7 @@ gulp.task('clean', function (cb) {
 <!-- Copy fonts -->
 
 gulp.task('copy:fonts', function () {
-    return gulp.src('./source/fonts/**/*.*')
+    return gulp.src('source/fonts/**/*.*')
         .pipe(gulp.dest('build/fonts'));
 });
 
