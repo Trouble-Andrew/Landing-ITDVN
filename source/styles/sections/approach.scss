@@ -17,7 +17,7 @@
             flex-direction: row-reverse;
             text-align: right;
             .approach__text {
-                padding: 70px 90px;
+                padding: 50px 90px;
             }
             .approach__step {
                 right: auto;
@@ -42,7 +42,7 @@
         vertical-align: top;
         width: 64%;
         font-size: 0.875rem;
-        padding: 70px 70px 55px 90px;
+        padding: 70px 70px 35px 90px;
     }
     &__step {
         @include centerer-y();
