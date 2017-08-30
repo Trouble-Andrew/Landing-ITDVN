@@ -1,0 +1,14 @@
+.container {
+    max-width: 1034px;
+    padding: 0 5px;
+    margin: auto;
+}
+
+.is-hidden {
+    display: none!important;
+}
+
+.visually-hidden {
+    text-indent: -9999px;
+    font-size: 0;
+}
