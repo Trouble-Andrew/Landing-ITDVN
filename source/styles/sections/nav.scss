@@ -1,12 +1,16 @@
 .nav {
     display: inline-block;
-    padding-top: 7px;
     vertical-align: top;
-    margin: 15px;
+    margin-left: 165px;
+    font-size: 0.9rem;
+    @media (max-width: 1030px) {
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
     &__link {
         display: inline-block;
         vertical-align: top;
-        padding: 10px;
+        padding: 8px;
         font-family: $ff-main-bold;
         text-decoration: none;
         text-transform: capitalize;
@@ -22,12 +26,19 @@
             vertical-align: middle;
             width: 5px;
             height: 5px;
-            margin-left: 20px;
+            margin-left: 16px;
             border-radius: 50%;
             background-color: #424242;
         }
         &:last-child:after {
             display: none;
+        }
+        @media (max-width: 530px) {
+            display: block;
+            text-align: center;
+            &:after {
+                display: none;
+            }
         }
     }
 }

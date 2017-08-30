@@ -2,6 +2,10 @@
     padding: 110px 0;
     background-color: #de2b24;
     color: #fff;
+    @media (max-width: 700px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     &__list {
         display: flex;
         flex-wrap: wrap;
